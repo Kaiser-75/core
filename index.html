@@ -10,12 +10,12 @@
        ========================================================= -->
 
   <title>
-    CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video
+    CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos
   </title>
 
   <meta
     name="title"
-    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video"
+    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos"
   >
 
   <meta
@@ -36,6 +36,7 @@
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
 
+
   <!-- =========================================================
        CANONICAL
        ========================================================= -->
@@ -45,6 +46,7 @@
     href="https://kaiser-75.github.io/core/"
   >
 
+
   <!-- =========================================================
        OPEN GRAPH
        ========================================================= -->
@@ -53,12 +55,12 @@
 
   <meta
     property="og:site_name"
-    content="CoRE Project"
+    content="CoRE"
   >
 
   <meta
     property="og:title"
-    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video"
+    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos"
   >
 
   <meta
@@ -104,6 +106,7 @@
     content="Risk Perception"
   >
 
+
   <!-- =========================================================
        TWITTER / X
        ========================================================= -->
@@ -112,7 +115,7 @@
 
   <meta
     name="twitter:title"
-    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video"
+    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos"
   >
 
   <meta
@@ -130,13 +133,14 @@
     content="CoRE project preview"
   >
 
+
   <!-- =========================================================
        ACADEMIC METADATA
        ========================================================= -->
 
   <meta
     name="citation_title"
-    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video"
+    content="CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos"
   >
 
   <meta name="citation_author" content="Hamid, Kaiser">
@@ -153,6 +157,7 @@
     content="https://kaiser-75.github.io/core/static/pdfs/paper.pdf"
   >
 
+
   <!-- =========================================================
        THEME
        ========================================================= -->
@@ -165,6 +170,7 @@
     name="apple-mobile-web-app-status-bar-style"
     content="default"
   >
+
 
   <!-- =========================================================
        PRECONNECT
@@ -188,6 +194,7 @@
     href="https://cdn.jsdelivr.net"
   >
 
+
   <!-- =========================================================
        FAVICON
        ========================================================= -->
@@ -202,6 +209,7 @@
     rel="apple-touch-icon"
     href="static/images/favicon.ico"
   >
+
 
   <!-- =========================================================
        CSS
@@ -269,6 +277,7 @@
 
   </noscript>
 
+
   <!-- =========================================================
        FONT
        ========================================================= -->
@@ -277,6 +286,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   >
+
 
   <!-- =========================================================
        JAVASCRIPT
@@ -307,6 +317,7 @@
     src="static/js/index.js">
   </script>
 
+
   <!-- =========================================================
        STRUCTURED DATA
        ========================================================= -->
@@ -317,7 +328,7 @@
     "@type": "ScholarlyArticle",
 
     "headline":
-      "CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video",
+      "CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos",
 
     "description":
       "CoRE is a weakly supervised coarse-to-fine framework that converts prediction changes under structured temporal and entity interventions into graded supervision for direct fine-grained video support prediction.",
@@ -376,29 +387,126 @@
       "@type": "WebPage",
       "@id":
         "https://kaiser-75.github.io/core/"
-    },
-
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "Weakly Supervised Video Understanding"
-      },
-      {
-        "@type": "Thing",
-        "name": "Driving Risk Perception"
-      },
-      {
-        "@type": "Thing",
-        "name": "Video Anomaly Localization"
-      }
-    ]
+    }
   }
   </script>
+
+
+  <!-- =========================================================
+       PAGE-SPECIFIC FIGURE LAYOUT
+       ========================================================= -->
+
+  <style>
+
+    body {
+      font-family: "Inter", sans-serif;
+    }
+
+    .figure-grid {
+      display: grid;
+      width: 100%;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .architecture-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .ucf-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .figure-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      width: 100%;
+    }
+
+    .figure-grid img,
+    .figure-stack img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .figure-panel {
+      overflow: hidden;
+      background: white;
+    }
+
+    .figure-caption {
+      max-width: 900px;
+      margin: 1.1rem auto 0 auto;
+      text-align: center;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #4a4a4a;
+    }
+
+    .results-number {
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .paper-figure-block {
+      margin-top: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .paper-figure-narrow {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .architecture-wrap {
+      max-width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .dota-wrap {
+      max-width: 920px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .risee-wrap {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ucf-wrap {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+
+      .architecture-grid,
+      .ucf-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .figure-grid,
+      .figure-stack {
+        gap: 10px;
+      }
+
+    }
+
+  </style>
 
 </head>
 
 
 <body>
+
 
   <!-- =========================================================
        SCROLL TO TOP
@@ -417,6 +525,7 @@
 
   <main id="main-content">
 
+
     <!-- =======================================================
          HERO
          ======================================================= -->
@@ -431,10 +540,11 @@
 
             <div class="column has-text-centered">
 
+
               <h1 class="title is-1 publication-title">
 
                 CoRE: Weakly Supervised Coarse-to-Fine
-                Risk Evidence Learning in Driving Video
+                Risk Evidence Learning in Driving Videos
 
               </h1>
 
@@ -480,6 +590,7 @@
               <div class="column has-text-centered">
 
                 <div class="publication-links">
+
 
                   <!-- Paper -->
 
@@ -535,26 +646,6 @@
                       </span>
 
                       <span>Code</span>
-
-                    </a>
-
-                  </span>
-
-
-                  <!-- Project -->
-
-                  <span class="link-block">
-
-                    <a
-                      href="https://kaiser-75.github.io/core/"
-                      target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-
-                      <span class="icon">
-                        <i class="fas fa-globe"></i>
-                      </span>
-
-                      <span>Project</span>
 
                     </a>
 
@@ -637,10 +728,12 @@
               </p>
 
               <p>
+
                 CoRE converts these measured prediction effects into
                 graded weak supervision and distills them into a
                 student that directly predicts fine-grained support
                 from the original video.
+
               </p>
 
             </div>
@@ -728,18 +821,23 @@
 
 
     <!-- =======================================================
-         METHOD
+         METHOD / ARCHITECTURE
+         2 x 2 stitched in HTML
          ======================================================= -->
 
     <section class="section hero is-light">
 
-      <div class="container is-max-desktop">
+      <div class="container">
 
         <h2 class="title is-3 has-text-centered">
           How CoRE Works
         </h2>
 
-        <div class="content has-text-justified">
+
+        <div
+          class="content has-text-justified"
+          style="max-width:900px;margin-left:auto;margin-right:auto;"
+        >
 
           <p>
 
@@ -753,39 +851,66 @@
 
           <p>
 
-            The resulting prediction changes measure how strongly each
-            candidate supports the original response. These effects
-            are converted into graded weak targets and distilled into
-            a separately initialized student. At inference, the
-            teacher and intervention procedure are removed: the
-            student directly predicts the coarse response together
-            with temporal and entity support in a single forward pass.
+            Prediction changes quantify how strongly each candidate
+            supports the original response. These effects become
+            graded weak targets for a separately initialized student.
+            At inference, the teacher and intervention procedure are
+            removed, and the student predicts the coarse response and
+            fine-grained support in a single forward pass.
 
           </p>
 
         </div>
 
-        <figure class="image">
 
-          <img
-            src="static/images/core_architecture.png"
-            alt="CoRE architecture with coarse video predictor, prediction-effect target construction, direct support distillation, and single-pass inference"
-            loading="lazy"
-          >
+        <div class="paper-figure-block architecture-wrap">
 
-        </figure>
+          <div class="figure-grid architecture-grid">
 
-        <p class="has-text-centered is-size-6">
+            <div class="figure-panel">
+              <img
+                src="static/images/panel_1.png"
+                alt="CoRE architecture panel 1: coarse video predictor"
+                loading="lazy"
+              >
+            </div>
 
-          <strong>
-            Coarse predictor
-            &nbsp;&rarr;&nbsp;
-            prediction effects
-            &nbsp;&rarr;&nbsp;
-            graded support targets
-            &nbsp;&rarr;&nbsp;
-            direct support prediction
-          </strong>
+            <div class="figure-panel">
+              <img
+                src="static/images/panel_2.png"
+                alt="CoRE architecture panel 2: prediction-effect target construction"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="figure-panel">
+              <img
+                src="static/images/panel_3.png"
+                alt="CoRE architecture panel 3: direct support distillation"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="figure-panel">
+              <img
+                src="static/images/panel_4.png"
+                alt="CoRE architecture panel 4: single-pass inference"
+                loading="lazy"
+              >
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <p class="figure-caption">
+
+          <strong>CoRE overview.</strong>
+          A coarse predictor supplies prediction-effect targets for
+          temporal and entity candidates. These targets are distilled
+          into a direct support predictor used without interventions
+          at inference.
 
         </p>
 
@@ -808,11 +933,12 @@
 
         <div class="columns is-centered">
 
+
           <!-- RISEE -->
 
           <div class="column has-text-centered">
 
-            <p class="title is-2">
+            <p class="title is-2 results-number">
               0.542
             </p>
 
@@ -832,7 +958,7 @@
 
           <div class="column has-text-centered">
 
-            <p class="title is-2">
+            <p class="title is-2 results-number">
               0.744
             </p>
 
@@ -852,7 +978,7 @@
 
           <div class="column has-text-centered">
 
-            <p class="title is-2">
+            <p class="title is-2 results-number">
               85.68%
             </p>
 
@@ -888,7 +1014,6 @@
 
         <div class="columns">
 
-          <!-- RISEE -->
 
           <div class="column">
 
@@ -913,8 +1038,6 @@
           </div>
 
 
-          <!-- DoTA -->
-
           <div class="column">
 
             <div class="content">
@@ -937,8 +1060,6 @@
 
           </div>
 
-
-          <!-- UCF-Crime -->
 
           <div class="column">
 
@@ -970,35 +1091,60 @@
 
 
     <!-- =======================================================
-         RISEE RESULTS
+         RISEE
+         2 panels stitched vertically in HTML
          ======================================================= -->
 
     <section class="section">
 
-      <div class="container is-max-desktop">
+      <div class="container">
 
         <h2 class="title is-3 has-text-centered">
           Perceived-Risk Support on RISEE
         </h2>
 
-        <div class="columns is-centered">
 
-          <div class="column is-four-fifths">
+        <div
+          class="content has-text-justified"
+          style="max-width:900px;margin-left:auto;margin-right:auto;"
+        >
 
-            <div class="content has-text-justified">
+          <p>
 
-              <p>
+            Attention MIL and soft top-k MIL provide useful
+            video-level instance scores, but their selected temporal
+            regions show weak or negative agreement with measured
+            prediction effects. CoRE instead achieves a selected
+            prediction drop of <strong>0.320</strong>, a
+            <strong>0.245</strong> gain over random intervention,
+            and a <strong>0.542</strong> support-effect correlation.
 
-                Attention MIL and soft top-k MIL provide useful
-                video-level instance scores, but their selected
-                temporal regions show weak or negative agreement with
-                measured prediction effects. CoRE instead achieves a
-                selected prediction drop of <strong>0.320</strong>,
-                a <strong>0.245</strong> gain over random
-                intervention, and a <strong>0.542</strong>
-                support-effect correlation.
+          </p>
 
-              </p>
+        </div>
+
+
+        <div class="paper-figure-block risee-wrap">
+
+          <div class="figure-stack">
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/high_risk.png"
+                alt="High-risk RISEE temporal support example"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/low_risk.png"
+                alt="Low-risk RISEE temporal support example"
+                loading="lazy"
+              >
 
             </div>
 
@@ -1006,15 +1152,14 @@
 
         </div>
 
-        <figure class="image">
 
-          <img
-            src="static/images/risee_support.png"
-            alt="Temporal support comparison on RISEE"
-            loading="lazy"
-          >
+        <p class="figure-caption">
 
-        </figure>
+          <strong>Temporal support on contrasting RISEE clips.</strong>
+          CoRE increases support as the high-risk interaction develops
+          while remaining suppressed in the low-risk example.
+
+        </p>
 
       </div>
 
@@ -1022,35 +1167,71 @@
 
 
     <!-- =======================================================
-         DOTA RESULTS
+         DOTA
+         3 panels stitched vertically in HTML
          ======================================================= -->
 
     <section class="section hero is-light">
 
-      <div class="container is-max-desktop">
+      <div class="container">
 
         <h2 class="title is-3 has-text-centered">
           Temporal Localization on DoTA
         </h2>
 
-        <div class="columns is-centered">
 
-          <div class="column is-four-fifths">
+        <div
+          class="content has-text-justified"
+          style="max-width:900px;margin-left:auto;margin-right:auto;"
+        >
 
-            <div class="content has-text-justified">
+          <p>
 
-              <p>
+            DoTA provides temporal event annotations that are never
+            observed during training. CoRE achieves the strongest
+            performance across evaluated methods under both feature
+            banks. With CLIP ViT-B/32, CoRE reaches
+            <strong>0.744 frame AUC</strong>,
+            <strong>0.514 AP</strong>,
+            <strong>0.364 F1@0.5</strong>, and
+            <strong>0.429 best tIoU</strong>.
 
-                DoTA provides temporal event annotations that are never
-                observed during training. CoRE achieves the strongest
-                performance across the evaluated methods under both
-                feature banks. With CLIP ViT-B/32, CoRE reaches
-                <strong>0.744 frame AUC</strong>,
-                <strong>0.514 AP</strong>,
-                <strong>0.364 F1@0.5</strong>, and
-                <strong>0.429 best tIoU</strong>.
+          </p>
 
-              </p>
+        </div>
+
+
+        <div class="paper-figure-block dota-wrap">
+
+          <div class="figure-stack">
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/qual_1.png"
+                alt="DoTA qualitative temporal localization example 1"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/qual_2.png"
+                alt="DoTA qualitative temporal localization example 2"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/qual_3.png"
+                alt="DoTA qualitative temporal localization example 3"
+                loading="lazy"
+              >
 
             </div>
 
@@ -1058,15 +1239,14 @@
 
         </div>
 
-        <figure class="image">
 
-          <img
-            src="static/images/dota_qualitative.png"
-            alt="Qualitative temporal localization results on DoTA"
-            loading="lazy"
-          >
+        <p class="figure-caption">
 
-        </figure>
+          <strong>Qualitative temporal localization on DoTA.</strong>
+          Ground-truth event intervals are compared with competing
+          weakly supervised methods and CoRE on the same videos.
+
+        </p>
 
       </div>
 
@@ -1074,42 +1254,87 @@
 
 
     <!-- =======================================================
-         UCF-CRIME RESULTS
+         UCF-CRIME
+         2 x 2 stitched in HTML
          ======================================================= -->
 
     <section class="section">
 
-      <div class="container is-max-desktop">
+      <div class="container">
 
         <h2 class="title is-3 has-text-centered">
           Generalization to UCF-Crime
         </h2>
 
-        <div class="columns is-centered">
 
-          <div class="column is-four-fifths">
+        <div
+          class="content has-text-justified"
+          style="max-width:900px;margin-left:auto;margin-right:auto;"
+        >
 
-            <div class="content has-text-justified">
+          <p>
 
-              <p>
+            CoRE obtains <strong>85.68% frame AUC</strong> on
+            UCF-Crime, exceeding our controlled RTFM
+            (<strong>84.30%</strong>) and MGFN
+            (<strong>82.79%</strong>) reproductions while remaining
+            competitive with recent specialized methods.
 
-                CoRE obtains <strong>85.68% frame AUC</strong> on
-                UCF-Crime, exceeding our controlled RTFM
-                (<strong>84.30%</strong>) and MGFN
-                (<strong>82.79%</strong>) reproductions while
-                remaining competitive with recent specialized
-                methods.
+          </p>
 
-              </p>
+          <p>
 
-              <p>
+            Performance on long surveillance videos with different
+            scenes and anomaly categories shows that prediction-effect
+            learning is not restricted to driving or continuous
+            perceived-risk supervision.
 
-                Performance on long surveillance videos with
-                different scenes and anomaly categories shows that
-                prediction-effect learning is not restricted to
-                driving or continuous perceived-risk supervision.
+          </p>
 
-              </p>
+        </div>
+
+
+        <div class="paper-figure-block ucf-wrap">
+
+          <div class="figure-grid ucf-grid">
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/ucf_1.png"
+                alt="UCF-Crime qualitative example 1"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/ucf_2.png"
+                alt="UCF-Crime qualitative example 2"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/ucf_3.png"
+                alt="UCF-Crime qualitative example 3"
+                loading="lazy"
+              >
+
+            </div>
+
+            <div class="figure-panel">
+
+              <img
+                src="static/images/ucf_4.png"
+                alt="UCF-Crime qualitative example 4"
+                loading="lazy"
+              >
 
             </div>
 
@@ -1117,15 +1342,15 @@
 
         </div>
 
-        <figure class="image">
 
-          <img
-            src="static/images/ucf_qualitative.png"
-            alt="Qualitative temporal localization on UCF-Crime"
-            loading="lazy"
-          >
+        <p class="figure-caption">
 
-        </figure>
+          <strong>Qualitative temporal localization on UCF-Crime.</strong>
+          Each example compares the annotated anomaly interval with the
+          temporal responses produced by CoRE and the controlled MGFN
+          baseline.
+
+        </p>
 
       </div>
 
@@ -1144,6 +1369,7 @@
           Which Entity Supports the Prediction?
         </h2>
 
+
         <div class="columns is-centered">
 
           <div class="column is-four-fifths">
@@ -1153,7 +1379,7 @@
               <p>
 
                 CoRE applies the same prediction-effect principle to
-                tracked scene entities. On RISEE, the learned entity
+                tracked scene entities. On RISEE, learned entity
                 support achieves a selected entity-effect drop of
                 <strong>0.243</strong> and a
                 <strong>0.117</strong> gain over random selection,
@@ -1167,7 +1393,8 @@
 
         </div>
 
-        <figure class="image">
+
+        <figure class="image paper-figure-narrow">
 
           <img
             src="static/images/entity_support.png"
@@ -1183,136 +1410,10 @@
 
 
     <!-- =======================================================
-         QUALITATIVE CAROUSEL
-         ======================================================= -->
-
-    <section class="hero is-small">
-
-      <div class="hero-body">
-
-        <div class="container">
-
-          <h2 class="title is-3 has-text-centered">
-            Qualitative Results
-          </h2>
-
-          <div
-            id="results-carousel"
-            class="carousel results-carousel">
-
-
-            <!-- RISEE -->
-
-            <div class="item">
-
-              <img
-                src="static/images/risee_support.png"
-                alt="Temporal prediction support on RISEE"
-                loading="lazy"
-              >
-
-              <h2 class="subtitle has-text-centered">
-
-                <strong>
-                  Perceived-risk support on RISEE.
-                </strong>
-
-                CoRE learns temporal support that agrees substantially
-                better with measured prediction effects than
-                conventional attention or MIL scores.
-
-              </h2>
-
-            </div>
-
-
-            <!-- DoTA -->
-
-            <div class="item">
-
-              <img
-                src="static/images/dota_qualitative.png"
-                alt="Temporal anomaly localization on DoTA"
-                loading="lazy"
-              >
-
-              <h2 class="subtitle has-text-centered">
-
-                <strong>
-                  Independent temporal validation on DoTA.
-                </strong>
-
-                CoRE produces concentrated temporal support aligned
-                with independently annotated traffic-anomaly
-                intervals.
-
-              </h2>
-
-            </div>
-
-
-            <!-- UCF -->
-
-            <div class="item">
-
-              <img
-                src="static/images/ucf_qualitative.png"
-                alt="Temporal anomaly localization on UCF-Crime"
-                loading="lazy"
-              >
-
-              <h2 class="subtitle has-text-centered">
-
-                <strong>
-                  Beyond driving.
-                </strong>
-
-                CoRE produces event-centered temporal responses across
-                diverse surveillance scenes and anomaly categories.
-
-              </h2>
-
-            </div>
-
-
-            <!-- Entity -->
-
-            <div class="item">
-
-              <img
-                src="static/images/entity_support.png"
-                alt="Entity-level support produced by CoRE"
-                loading="lazy"
-              >
-
-              <h2 class="subtitle has-text-centered">
-
-                <strong>
-                  Entity-level prediction support.
-                </strong>
-
-                The same prediction-effect mechanism identifies which
-                tracked scene entities contribute most strongly to the
-                coarse prediction.
-
-              </h2>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =======================================================
          TAKEAWAY
          ======================================================= -->
 
-    <section class="section hero is-light">
+    <section class="section">
 
       <div class="container is-max-desktop">
 
@@ -1361,7 +1462,7 @@
          RESOURCES
          ======================================================= -->
 
-    <section class="section">
+    <section class="section hero is-light">
 
       <div class="container is-max-desktop">
 
@@ -1370,6 +1471,7 @@
         </h2>
 
         <div class="buttons is-centered">
+
 
           <!-- Paper -->
 
@@ -1418,22 +1520,6 @@
 
           </a>
 
-
-          <!-- Project -->
-
-          <a
-            class="button is-dark is-rounded"
-            href="https://kaiser-75.github.io/core/"
-            target="_blank">
-
-            <span class="icon">
-              <i class="fas fa-globe"></i>
-            </span>
-
-            <span>Project</span>
-
-          </a>
-
         </div>
 
       </div>
@@ -1446,7 +1532,7 @@
          ======================================================= -->
 
     <section
-      class="section hero is-light"
+      class="section"
       id="BibTeX">
 
       <div class="container is-max-desktop content">
@@ -1472,16 +1558,17 @@
 
         </div>
 
+
         <pre id="bibtex-code"><code>@article{hamid2026core,
-  title  = {CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Video},
+  title  = {CoRE: Weakly Supervised Coarse-to-Fine Risk Evidence Learning in Driving Videos},
   author = {Hamid, Kaiser and Cui, Can and Liang, Nade},
-  year   = {2026},
-  url    = {https://kaiser-75.github.io/core/}
+  year   = {2026}
 }</code></pre>
 
       </div>
 
     </section>
+
 
   </main>
 
@@ -1544,11 +1631,14 @@
   <script>
 
     function scrollToTop() {
+
       window.scrollTo({
         top: 0,
         behavior: "smooth"
       });
+
     }
+
 
     function copyBibTeX() {
 
@@ -1567,20 +1657,25 @@
             );
 
           if (button) {
+
             button.textContent = "Copied!";
 
             setTimeout(() => {
               button.textContent = "Copy";
             }, 1500);
+
           }
 
         })
         .catch((error) => {
+
           console.error(
             "Could not copy BibTeX:",
             error
           );
+
         });
+
     }
 
   </script>
